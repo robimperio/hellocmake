@@ -10,3 +10,5 @@ add_executable(tutorial ${source_file})
 
 target_link_libraries(tutorial poo) 
 target_link_libraries(tutorial foo) 
+
+install(TARGETS tutorial RUNTIME DESTINATION bin)
